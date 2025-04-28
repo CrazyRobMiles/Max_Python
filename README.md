@@ -1,10 +1,11 @@
 # Max_Python
 Pick up extra Python Skills. All the examples have been written to run in MicroPython on a Raspberry Pi PICO device.
 
+These resources were created to accompany an article in issue 153 of  [Raspberry Pi Magazine](https://magazine.raspberrypi.com/issues/153)
+
 ![Display box with 8x8 display and two rotary encoders](images/displaybox.jpg)
 
-You can build a box like this, or you can just connect an 8x8 Neopixel display to a PICO
-
+You can build a box like this, or you can just connect an 8x8 Neopixel display to a PICO. 
 ![Pico and display panel](images/components.jpg)
 
 The display is connected to GND, VSYS and GP18. 
@@ -38,13 +39,13 @@ Double the processing power available to your application by running code on cor
 
 ## Classes
 
-Create a simple sprite class hierarchy. 
+This part didn't make it into the article. But you might find it interesting. It shows a simple sprite class hierarchy. 
 
 * **11MakeSprite** - make a parent Sprite class and a Dot class
 * **12DotandBlock** - add a Block class
 * **13DotsAndBlocks** - lots of dots and blocks in a playfield list
 
-# Browser to Python
+# JavaScript - Browser to Python
 
 The BrowserToPython folder contains web pages and Python files which implement the transfer of colour information from a PC to a PICO running MicroPython:
 
@@ -52,6 +53,12 @@ The BrowserToPython folder contains web pages and Python files which implement t
 * **PrettyTransmitter.html** - implements a prettier web page with a status display
 * **Receiver.py** - runs in a PICO, receives colour values and displays them on NeoPixels
 * **Save.py** - receives colour values and stores them in a local file so that a default light colour can be set.
+
+Run the MicroPython program on your device, connect it to a serial port on your desktop and open the html file with your browser. Then click the connect button on the web page. Then you can select colours which are sent to the Pico. If your PICO has pixels connected to it, these are displayed. You can use this to create a configurable light which remembers the colour you have selected when it is turned off. 
+
+# Getting Rusty
+
+If you want to look at the Rusty LIDAR project you can find it [here](https://github.com/Davermouse/rusty-lidar)
 
 Have Fun
 
