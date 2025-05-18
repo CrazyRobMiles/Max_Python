@@ -60,6 +60,14 @@ Run the MicroPython program on your device, connect it to a serial port on your 
 
 If you want to look at the Rusty LIDAR project you can find it [here](https://github.com/Davermouse/rusty-lidar)
 
+# Shameless plugs
+
+If you want some quick Python tips take a look at my [Python Shorts](https://github.com/CrazyRobMiles/python-shorts)
+
+If you want to find out about my books, take a look [here](https://www.robmiles.com/booklist)
+
+If you want to see my projects, take a look [here](https://www.robmiles.com/projects)
+
 Have Fun
 
 Rob Miles 
