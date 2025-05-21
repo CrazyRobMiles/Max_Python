@@ -3,6 +3,7 @@
 import random
 import machine
 import neopixel
+import time
 
 class Col:
     RED = (255, 0, 0)
